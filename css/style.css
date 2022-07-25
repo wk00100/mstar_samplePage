@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body {
+    background-color: #F6F4F4;
+    max-width: 1280px;
+}
+
+header h1 {
+    color: darkolivegreen;
+    letter-spacing: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0%;
+    font-weight: bold;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+p {
+    color: gray;
+    font-family: 'Lora', 'Noto Sans TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+    letter-spacing: 0px;
+    line-height: 175%;
+}
+
+
+/*font-family: 'Noto Sans TC', sans-serif;*/
+
+
+/*#id just for a single element*/
+
+.nav a {
+    color: #006400;
+}
+
+.nav li {
+    color: gray;
+}
+
+.sidebar a {
+    color: gray;
+}
+
+footer h4 {
+    line-height: 0%;
+}
+
+footer ul {
+    padding-left: 0%;
+    color: #405090;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 85%;
+}
+
+footer dt {
+    color: #405090;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+footer dd {
+    display: block;
+    margin-left: 0%;
+    color: #405090;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 85%;
+}
