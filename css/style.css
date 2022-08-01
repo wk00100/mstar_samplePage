@@ -1,19 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/*
+******格式規定******
+picture->color->fontSet->typeSet
+*/
 body {
     background-color: #F6F4F4;
-    max-width: 1280px;
+    max-width: 2048px;
+    font-family: 'Times New Roman', 'Noto Sans TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+    line-height: 175%;
 }
 
 header h1 {
+    /*background-image: url(/img/header.jpg);*/
     color: darkolivegreen;
+    background-color: #9EB0A7;
+    font-size: 60px;
     letter-spacing: 20px;
+    font-weight: 900;        /*100(thin), 400(normal), 700(bold), 900(heavy)*/
+    background-size: 100%;
+    /*width: 500px;
+    height: 20px;*/
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
 }
 
 ul {
     list-style: none;
     padding-left: 0%;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 a {
