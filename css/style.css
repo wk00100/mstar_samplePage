@@ -5,11 +5,43 @@
 picture->color->fontSet->typeSet
 */
 body {
-    background-color: #F6F4F4;
-    max-width: 2048px;
+    /* background-color: #F6F4F4; */
+    max-width: 1980px;
     font-family: 'Times New Roman', 'Noto Sans TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
     line-height: 175%;
+    /* background shorthand */
+    background: rgba(60, 100, 100, .9) url(/img/background.jpg) no-repeat scroll ; 
+    background-blend-mode: multiply;
+    background-size: cover;
+
 }
+
+h2, h3{
+    color: #AAA;
+    font-weight: bold;
+}
+p {
+    color: gray;
+    font-family: 'Lora', 'Noto Sans TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+    letter-spacing: 0px;
+    line-height: 175%;
+}
+ul {
+    list-style: none;
+    padding-left: 0%;
+    font-weight: normal;
+}
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+hr{
+    background-color: #AAA
+}
+
+
+
 
 header h1 {
     /*background-image: url(/img/header.jpg);*/
@@ -25,30 +57,6 @@ header h1 {
     padding: 50px;
     text-align: center;
 }
-
-ul {
-    list-style: none;
-    padding-left: 0%;
-    font-weight: normal;
-}
-
-a {
-    color: gray;
-    text-decoration: none;
-}
-
-p {
-    color: gray;
-    font-family: 'Lora', 'Noto Sans TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
-    letter-spacing: 0px;
-    line-height: 175%;
-}
-
-
-/*font-family: 'Noto Sans TC', sans-serif;*/
-
-
-/*#id just for a single element*/
 
 .nav a {
     color: #006400;
@@ -86,4 +94,7 @@ footer dd {
     color: #405090;
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 85%;
+}
+.copyright {
+    line-height: 1 em;
 }
