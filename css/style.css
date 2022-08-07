@@ -1,100 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
 /*
 ******格式規定******
-picture->color->fontSet->typeSet
+picture->color->blockset->fontSet->typeSet
 */
 body {
-    /* background-color: #F6F4F4; */
-    max-width: 1980px;
-    font-family: 'Times New Roman', 'Noto Sans TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
-    line-height: 175%;
-    /* background shorthand */
-    background: rgba(60, 100, 100, .9) url(/img/background.jpg) no-repeat scroll ; 
-    background-blend-mode: multiply;
-    background-size: cover;
-
+	/* background-color: #F6F4F4; */
+	max-width: 1980px;
+	font-family: "Times New Roman", "Noto Sans TC", "Microsoft JhengHei",
+		"Microsoft YaHei", sans-serif;
+	font-size: 10px;
+	line-height: 175%;
+	/* background shorthand */
+	background: rgba(60, 100, 100, 0.9) url(/img/background.jpg) no-repeat scroll;
+	background-blend-mode: multiply;
+	background-size: cover;
 }
 
-h2, h3{
-    color: #AAA;
-    font-weight: bold;
+h2,
+h3 {
+	color: #aaa;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0.5em 0.5em 0.5em 0em;
 }
+
 p {
-    color: gray;
-    font-family: 'Lora', 'Noto Sans TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
-    letter-spacing: 0px;
-    line-height: 175%;
+	display: inline-block;
+	color: gray;
+	font-family: "Lora", "Noto Sans TC", "Microsoft JhengHei", "Microsoft YaHei",
+		sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 0px;
+	line-height: 175%;
 }
+
 ul {
-    list-style: none;
-    padding-left: 0%;
-    font-weight: normal;
+	list-style: none;
+	padding-left: 0%;
+	font-weight: normal;
 }
+
 a {
-    color: gray;
-    text-decoration: none;
+	color: gray;
+	text-decoration: none;
 }
 
-hr{
-    background-color: #AAA
+hr {
+	background-color: #aaa;
+	border-width: 0px;
+	height: 2px;
 }
 
-
-
+main {
+	display: inline-block;
+}
 
 header h1 {
-    /*background-image: url(/img/header.jpg);*/
-    color: darkolivegreen;
-    background-color: #9EB0A7;
-    font-size: 60px;
-    letter-spacing: 20px;
-    font-weight: 900;        /*100(thin), 400(normal), 700(bold), 900(heavy)*/
-    background-size: 100%;
-    /*width: 500px;
-    height: 20px;*/
-    margin: 0px;
-    padding: 50px;
-    text-align: center;
+	display: block;
+	color: darkolivegreen;
+	background-color: #9eb0a7;
+	font-size: 60px;
+	letter-spacing: 20px;
+	font-weight: 900;
+	/*100(thin), 400(normal), 700(bold), 900(heavy)*/
+
+	margin: 0px;
+	padding: 0.5em 1em;
+	text-align: center;
 }
 
-.nav a {
-    color: #006400;
+.navbar {
+	background-color: darkslategray;
+
+	font-size: 0px;
+	text-align: center;
+	display: block;
+	margin: auto;
 }
 
-.nav li {
-    color: gray;
+.navbar ul {
+	font-size: 0;
+	text-align: center;
+	display: inline-block;
+}
+
+.navbar li {
+	font-size: 15px;
+	display: inline-block;
+	padding: 1.5em;
+}
+
+.sidebar {
+	display: inline-block;
+	font-size: 0.5em 1.5em;
 }
 
 .sidebar a {
-    color: gray;
+	color: gray;
 }
 
+footer {
+	background-color: #aaa;
+	opacity: 0.6;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 0%;
+}
 footer h4 {
-    line-height: 0%;
+	line-height: 0%;
 }
 
 footer ul {
-    padding-left: 0%;
-    color: #405090;
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 85%;
+	padding-left: 0%;
+	color: #405090;
+	font-family: "Noto Sans TC", sans-serif;
+	font-size: 85%;
+}
+footer dl {
+	display: inline-block;
 }
 
 footer dt {
-    color: #405090;
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 90%;
-    font-weight: bold;
+	color: #405090;
+	font-family: "Noto Sans TC", sans-serif;
+	font-size: 90%;
+	font-weight: bold;
 }
 
 footer dd {
-    display: block;
-    margin-left: 0%;
-    color: #405090;
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 85%;
+	display: block;
+	margin-left: 0%;
+	color: #405090;
+	font-family: "Noto Sans TC", sans-serif;
+	font-size: 85%;
+	line-height: 100%;
+	padding: 0.5em;
 }
+
 .copyright {
-    line-height: 1 em;
+	color: #333;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 125%;
+	text-align: center;
+	padding: 0 40% 0 40%;
 }
